@@ -2,6 +2,8 @@ import tensorflow as tf
 import forward
 from tensorflow.examples.tutorials.mnist import input_data
 import os
+import tensorboard as tb
+
 #必备常量定义区，知识总结
 #batchsize,学习率太大0.1不稳定，太小0.001收敛慢，
 #学习率衰减率与基础值相乘
