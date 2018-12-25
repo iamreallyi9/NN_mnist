@@ -5,6 +5,7 @@ from PIL import Image
 import numpy as np
 
 def model_restore(testpic_arr):
+    #没有下面这句话就不能实现读取多张图片，app不能进行多次
     with tf.Graph().as_default() as tg:
 
         #描述计算图
